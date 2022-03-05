@@ -58,13 +58,22 @@ a:hover{
 .icones{
     background-color: #365B6D;
     width: 22vh;
-    height: 25vh;
+    height: 24vh;
     display: flex;
     justify-content: center;
 }
 .dimensões-icones{
     background-color: #365B6D;
     margin-top: 2vh;
-    width: 14vh;
+    width: 12vh;
     height: 14vh;
+}
+.pés{
+    background-color: #365B6D;
+    color: #fff;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20vh;
 }
