@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Playfair+Display&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.cabeçalho{
+    background-image: url('assets/Dev.Jr.png');
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #4292bf;
+    background-color: #fff;
+    padding: 5px;
+    border: 2px solid #4292bf;
+    border-radius: 2vh;
+    text-transform: uppercase;
+    cursor: pointer; 
+}
+a:hover{
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #4292bf;
+}
+.infos-sobre-mim{
+    width: 90vh;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5vh;
+    margin-left: 20vh;
+    margin-top: 10vh;
+}
+.minhas-habilidades{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -26vh;
+    margin-right: 50vh;
+}
+.box-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20vh;
+}
+.icones{
+    background-color: #365B6D;
+    width: 22vh;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+}
+.dimensões-icones{
+    background-color: #365B6D;
+    margin-top: 2vh;
+    width: 14vh;
+    height: 14vh;
+}
