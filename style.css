@@ -68,6 +68,12 @@ a:hover{
     width: 12vh;
     height: 14vh;
 }
+.social{
+    text-decoration: none;
+}
+.social:hover{
+    transform: scale(1.2);
+}
 .pés{
     background-color: #365B6D;
     color: #fff;
